@@ -30,5 +30,19 @@ public class StepDefinition {
 
     }
 
+    @Gegeven("ik ben ingelogd")
+    public void ik_ben_ingelogd() {
+        System.out.println("Ik ben ingelogd");
+    }
+    @Gegeven("ik zoek naar {string}")
+    public void ik_zoek_naar(String string) {
+        System.out.println("Ik zoek naar " + string);
+     }
+    @Dan("krijg ik {string} op het scherm")
+    public void krijg_ik_op_het_scherm(String string) {
+        System.out.println("krijg ik aantal " + string + "op het scherm");
+
+    }
+
 
 }
