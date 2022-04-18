@@ -11,12 +11,12 @@ public class StepDefinition {
         System.out.println("ik ben ingelogd");
     }
     @Als("ik mijn gebruikersnaam {string} invul")
-    public void ik_mijn_gebruikersnaam_invul(String string) {
-        System.out.println("ik vul mijn gebruikersnaam " + string);
+    public void ik_mijn_gebruikersnaam_invul(String naam) {
+        System.out.println("ik vul mijn gebruikersnaam " + naam);
      }
     @Als("ik mijn wachtwoord {string} invul")
-    public void mijn_wachtwoord_invul(String string) {
-        System.out.println("Mijn wachtwoord invult " + string);
+    public void mijn_wachtwoord_invul(String pass) {
+        System.out.println("Mijn wachtwoord invult " + pass);
 
     }
     @Als("ik klik op Inloggen")
@@ -35,12 +35,12 @@ public class StepDefinition {
         System.out.println("Ik ben ingelogd");
     }
     @Gegeven("ik zoek naar {string}")
-    public void ik_zoek_naar(String string) {
-        System.out.println("Ik zoek naar " + string);
+    public void ik_zoek_naar(String product) {
+        System.out.println("Ik zoek naar " + product);
      }
     @Dan("krijg ik {string} op het scherm")
-    public void krijg_ik_op_het_scherm(String string) {
-        System.out.println("krijg ik aantal " + string + "op het scherm");
+    public void krijg_ik_op_het_scherm(String aantal) {
+        System.out.println("krijg ik aantal " + aantal + "op het scherm");
 
     }
 
